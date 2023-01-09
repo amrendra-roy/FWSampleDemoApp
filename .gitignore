@@ -33,6 +33,15 @@ Carthage/Build
 # Note: if you ignore the Pods directory, make sure to uncomment
 # `pod install` in .travis.yml
 #
+
+## Build generated
+build/
+DerivedData/
+
+
 Pods/
 Podfile.lock
 Manifest.lock
+
+FWSampleDemoApp.xcworkspace/xcshareddata
+FWSampleDemoApp.xcodeproj/xcshareddata
