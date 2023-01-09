@@ -1,0 +1,27 @@
+{
+  "name": "FWAmarRechargeSDK",
+  "version": "0.1.0",
+  "summary": "A SDK which provide recharge facilities only, created by terminal",
+  "description": "A framework created by Terminal with example, this is only for framework learning purpose. A SDK which provide recharge facilities only.",
+  "homepage": "https://github.com/amrendra-roy/FWAmarRechargeSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "amrendra-roy": "amar.roy17@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/amrendra-roy/FWAmarRechargeSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "FWAmarRechargeSDK/Classes/**/*",
+  "resource_bundles": {
+    "AmarResources": [
+      "FWAmarRechargeSDK/Assets/Images/*.png"
+    ]
+  }
+}

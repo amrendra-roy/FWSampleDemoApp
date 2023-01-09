@@ -1,0 +1,933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
+		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		0BAFFE2CC9E3867FF4255070E3C77018 /* FWAmarRechargeSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E583530C6EE30B55D6D162B28EB936A /* FWAmarRechargeSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452AF7BEE10EF07E275928FA4328681F /* JyotiPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDC25DC935E86A59B9C9B8332EC4A98 /* JyotiPhoto.png */; };
+		45DE2DB151145D29011F3A7C46CDCDCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		476EB21D233AE4ACEB618DA7026D679D /* Pods-FWSampleDemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2C3C46D636AB1B942FEA062124E75E /* Pods-FWSampleDemoApp-dummy.m */; };
+		49E84417DA999606AE8CE08E482C8B21 /* FWAmarRechargeSDK-AmarResources in Resources */ = {isa = PBXBuildFile; fileRef = 7D964C56250A2F50A22C490A40563501 /* FWAmarRechargeSDK-AmarResources */; };
+		543FE2562DD8A934245E356B0D7E155B /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5D274229790CA4D7C8BC16E13DE6B7 /* PaymentManager.swift */; };
+		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
+		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		703DCF899C9292FA0B2B8C0B01217787 /* RechargeFWClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2577BC8460100D7A1A63071EF5213 /* RechargeFWClass.swift */; };
+		96F4A6BB4E0A2CAFFC62519A34F34A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		A79F39F9C21A92C91BF059EE55272A89 /* FWAmarRechargeSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD390AA32547575B1A1AF1D05040DF /* FWAmarRechargeSDK-dummy.m */; };
+		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
+		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */; };
+		D84BFEAF7DFBF74B34E46AFECE298D47 /* Pods-FWSampleDemoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9CECA990EB0F26E433BF9331D505C6 /* Pods-FWSampleDemoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14FF665E8CA2ADFA25D7248C7ABFAE11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22052F81AA44A42C1177FD7B35E54369;
+			remoteInfo = "FWAmarRechargeSDK-AmarResources";
+		};
+		1C86C96AC6AF01F34D23500E6CDA3DAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062053ED1959F7DF24C7C60DF291704A;
+			remoteInfo = FWAmarRechargeSDK;
+		};
+		5C0EF51C2C568A826FA16C9737D14822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F5FAA4DACB5680B75DB881277165332 /* Pods-FWSampleDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWSampleDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		1403D51E93491EF7B8CE57981B8CA30E /* FWAmarRechargeSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FWAmarRechargeSDK-Info.plist"; sourceTree = "<group>"; };
+		189612FA3724B23A6902FE9424CDEAAD /* Pods-FWSampleDemoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FWSampleDemoApp.modulemap"; sourceTree = "<group>"; };
+		20CC00F31E2D9E7626E5E285622D3742 /* Pods-FWSampleDemoApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWSampleDemoApp-Info.plist"; sourceTree = "<group>"; };
+		264A4AF2C07356C108DFF990EBD4196E /* Pods-FWSampleDemoApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FWSampleDemoApp"; path = Pods_FWSampleDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E583530C6EE30B55D6D162B28EB936A /* FWAmarRechargeSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FWAmarRechargeSDK-umbrella.h"; sourceTree = "<group>"; };
+		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		5542C22A1D452142E9BED71EE70F8AB5 /* Pods-FWSampleDemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FWSampleDemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		56408369A47C45AC415D96C439C61DB1 /* Pods-FWSampleDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FWSampleDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5D5D274229790CA4D7C8BC16E13DE6B7 /* PaymentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentManager.swift; path = FWAmarRechargeSDK/Classes/PaymentManager.swift; sourceTree = "<group>"; };
+		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		7D964C56250A2F50A22C490A40563501 /* FWAmarRechargeSDK-AmarResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FWAmarRechargeSDK-AmarResources"; path = AmarResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F15F177F9DE7439DF659B6837C8C96 /* Pods-FWSampleDemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FWSampleDemoApp-frameworks.sh"; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDD390AA32547575B1A1AF1D05040DF /* FWAmarRechargeSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FWAmarRechargeSDK-dummy.m"; sourceTree = "<group>"; };
+		90856860E53E6687F4CBBC7D4E80CAA4 /* FWAmarRechargeSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FWAmarRechargeSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		976BB03CD8D46C819894718239CB95E1 /* FWAmarRechargeSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FWAmarRechargeSDK.modulemap; sourceTree = "<group>"; };
+		991F845BB62BE346AB50C2A320212E7B /* ResourceBundle-AmarResources-FWAmarRechargeSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AmarResources-FWAmarRechargeSDK-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD086B54C374FB35BCC47269637DD97B /* FWAmarRechargeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FWAmarRechargeSDK.release.xcconfig; sourceTree = "<group>"; };
+		BF99EC64D5239E07162178DF83104D3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C0B6BF394059D3B1A4BE8F1AEB98B179 /* FWAmarRechargeSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FWAmarRechargeSDK; path = FWAmarRechargeSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3977D49AB884589A4E57EEE851A834D /* FWAmarRechargeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FWAmarRechargeSDK.debug.xcconfig; sourceTree = "<group>"; };
+		C3C3FD015C47838C6E179114B838B867 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5C2577BC8460100D7A1A63071EF5213 /* RechargeFWClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RechargeFWClass.swift; path = FWAmarRechargeSDK/Classes/RechargeFWClass.swift; sourceTree = "<group>"; };
+		E51BA730F03BC5A0174D5BBBD00DD972 /* Pods-FWSampleDemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FWSampleDemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		FC2C3C46D636AB1B942FEA062124E75E /* Pods-FWSampleDemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FWSampleDemoApp-dummy.m"; sourceTree = "<group>"; };
+		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FD97CD9FD8E9EB9859CCBDAFE89EA6A4 /* FWAmarRechargeSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FWAmarRechargeSDK-prefix.pch"; sourceTree = "<group>"; };
+		FE9CECA990EB0F26E433BF9331D505C6 /* Pods-FWSampleDemoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FWSampleDemoApp-umbrella.h"; sourceTree = "<group>"; };
+		FFDC25DC935E86A59B9C9B8332EC4A98 /* JyotiPhoto.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = JyotiPhoto.png; path = FWAmarRechargeSDK/Assets/Images/JyotiPhoto.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F308C4C3FEE98AB445466A3F9C61FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DC8F0C2894774845C1DD2E7CA07B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */,
+				0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */,
+				B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFA98290AEBD223415E7F29A0B7A57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DE2DB151145D29011F3A7C46CDCDCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58E872D82DA9C922BD7EBBBD89040F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F4A6BB4E0A2CAFFC62519A34F34A97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D6691D8CB3D493006A8661C7CFED31A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2091C3138A5485A6AAB5F6FB60B26314 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD3267F5EB56581618CD9843FD0207 /* Pods-FWSampleDemoApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D6691D8CB3D493006A8661C7CFED31A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */,
+				CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */,
+				51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D4B3B5DC059C63A9C6E98A7145008BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0B6BF394059D3B1A4BE8F1AEB98B179 /* FWAmarRechargeSDK */,
+				7D964C56250A2F50A22C490A40563501 /* FWAmarRechargeSDK-AmarResources */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
+				264A4AF2C07356C108DFF990EBD4196E /* Pods-FWSampleDemoApp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661EF3DD30D92B1C5F36EE23DE3AB809 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				976BB03CD8D46C819894718239CB95E1 /* FWAmarRechargeSDK.modulemap */,
+				8DDD390AA32547575B1A1AF1D05040DF /* FWAmarRechargeSDK-dummy.m */,
+				1403D51E93491EF7B8CE57981B8CA30E /* FWAmarRechargeSDK-Info.plist */,
+				FD97CD9FD8E9EB9859CCBDAFE89EA6A4 /* FWAmarRechargeSDK-prefix.pch */,
+				4E583530C6EE30B55D6D162B28EB936A /* FWAmarRechargeSDK-umbrella.h */,
+				C3977D49AB884589A4E57EEE851A834D /* FWAmarRechargeSDK.debug.xcconfig */,
+				BD086B54C374FB35BCC47269637DD97B /* FWAmarRechargeSDK.release.xcconfig */,
+				991F845BB62BE346AB50C2A320212E7B /* ResourceBundle-AmarResources-FWAmarRechargeSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../FWSampleDemoApp/Pods/Target Support Files/FWAmarRechargeSDK";
+			sourceTree = "<group>";
+		};
+		6796949F86511704ADCDDECBD748DC03 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				90856860E53E6687F4CBBC7D4E80CAA4 /* FWAmarRechargeSDK.podspec */,
+				BF99EC64D5239E07162178DF83104D3F /* LICENSE */,
+				C3C3FD015C47838C6E179114B838B867 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */,
+				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
+				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		876D97C7B41C1D939949895AA5C622F8 /* FWAmarRechargeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FFDC25DC935E86A59B9C9B8332EC4A98 /* JyotiPhoto.png */,
+				5D5D274229790CA4D7C8BC16E13DE6B7 /* PaymentManager.swift */,
+				D5C2577BC8460100D7A1A63071EF5213 /* RechargeFWClass.swift */,
+				6796949F86511704ADCDDECBD748DC03 /* Pod */,
+				661EF3DD30D92B1C5F36EE23DE3AB809 /* Support Files */,
+			);
+			name = FWAmarRechargeSDK;
+			path = ../../FWAmarRechargeSDK;
+			sourceTree = "<group>";
+		};
+		96D4A211A7A094849873FE1E7037FF2C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				876D97C7B41C1D939949895AA5C622F8 /* FWAmarRechargeSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0CD3267F5EB56581618CD9843FD0207 /* Pods-FWSampleDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				189612FA3724B23A6902FE9424CDEAAD /* Pods-FWSampleDemoApp.modulemap */,
+				E51BA730F03BC5A0174D5BBBD00DD972 /* Pods-FWSampleDemoApp-acknowledgements.markdown */,
+				5542C22A1D452142E9BED71EE70F8AB5 /* Pods-FWSampleDemoApp-acknowledgements.plist */,
+				FC2C3C46D636AB1B942FEA062124E75E /* Pods-FWSampleDemoApp-dummy.m */,
+				89F15F177F9DE7439DF659B6837C8C96 /* Pods-FWSampleDemoApp-frameworks.sh */,
+				20CC00F31E2D9E7626E5E285622D3742 /* Pods-FWSampleDemoApp-Info.plist */,
+				FE9CECA990EB0F26E433BF9331D505C6 /* Pods-FWSampleDemoApp-umbrella.h */,
+				56408369A47C45AC415D96C439C61DB1 /* Pods-FWSampleDemoApp.debug.xcconfig */,
+				0F5FAA4DACB5680B75DB881277165332 /* Pods-FWSampleDemoApp.release.xcconfig */,
+			);
+			name = "Pods-FWSampleDemoApp";
+			path = "Target Support Files/Pods-FWSampleDemoApp";
+			sourceTree = "<group>";
+		};
+		C86A493F744575B77BC85AB9B143DAC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */,
+				4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */,
+				53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */,
+				71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */,
+				5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */,
+				5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */,
+				6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				96D4A211A7A094849873FE1E7037FF2C /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				3F242479102E24C5847AB040CB8095A8 /* Pods */,
+				5D4B3B5DC059C63A9C6E98A7145008BA /* Products */,
+				2091C3138A5485A6AAB5F6FB60B26314 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D82C29ACD851E6EA219B34A73C961F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */,
+				5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD6170B23D480D4DC85E33543AB060F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84BFEAF7DFBF74B34E46AFECE298D47 /* Pods-FWSampleDemoApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C161D548F364DE549D7BD479C17326 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAFFE2CC9E3867FF4255070E3C77018 /* FWAmarRechargeSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		062053ED1959F7DF24C7C60DF291704A /* FWAmarRechargeSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EEE77FAEF4D7483E9D3ECB777A6A55 /* Build configuration list for PBXNativeTarget "FWAmarRechargeSDK" */;
+			buildPhases = (
+				C0C161D548F364DE549D7BD479C17326 /* Headers */,
+				685480A9F54ADC228D597E46B261D23F /* Sources */,
+				DFFA98290AEBD223415E7F29A0B7A57F /* Frameworks */,
+				754473EDB66B104D6056B42B7DFE388B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D850069CA7D0CAB820CFEB468F85981 /* PBXTargetDependency */,
+			);
+			name = FWAmarRechargeSDK;
+			productName = FWAmarRechargeSDK;
+			productReference = C0B6BF394059D3B1A4BE8F1AEB98B179 /* FWAmarRechargeSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		22052F81AA44A42C1177FD7B35E54369 /* FWAmarRechargeSDK-AmarResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40859CE7824E377FDF402916E6B8A75 /* Build configuration list for PBXNativeTarget "FWAmarRechargeSDK-AmarResources" */;
+			buildPhases = (
+				88B126360DEE5CFC8A836D8A6B7D1C34 /* Sources */,
+				7F308C4C3FEE98AB445466A3F9C61FE5 /* Frameworks */,
+				41ED70380C83EBACAB9FE3D20917BC8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FWAmarRechargeSDK-AmarResources";
+			productName = AmarResources;
+			productReference = 7D964C56250A2F50A22C490A40563501 /* FWAmarRechargeSDK-AmarResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BD2681E97C00DCC2EF91B0EBA76110 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				5D82C29ACD851E6EA219B34A73C961F5 /* Headers */,
+				7E957D4020E4C4BC633BF50F7F51E5F6 /* Sources */,
+				D6DC8F0C2894774845C1DD2E7CA07B0C /* Frameworks */,
+				C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3B5EDDAF046F7F6471A8833CEE4ACCC /* Pods-FWSampleDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABE5965D8B15959B2825103E6720ADA /* Build configuration list for PBXNativeTarget "Pods-FWSampleDemoApp" */;
+			buildPhases = (
+				6FD6170B23D480D4DC85E33543AB060F /* Headers */,
+				B56A6C6CED4A2B6BB85CB7208B8A521B /* Sources */,
+				F58E872D82DA9C922BD7EBBBD89040F3 /* Frameworks */,
+				53CB77E11727ED481B54EE1F6FA9B99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD8B7EC1609241BBF4AEA7866EFA65DC /* PBXTargetDependency */,
+				F79B0592939583A583BB3DAF79AE939D /* PBXTargetDependency */,
+			);
+			name = "Pods-FWSampleDemoApp";
+			productName = Pods_FWSampleDemoApp;
+			productReference = 264A4AF2C07356C108DFF990EBD4196E /* Pods-FWSampleDemoApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5D4B3B5DC059C63A9C6E98A7145008BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				062053ED1959F7DF24C7C60DF291704A /* FWAmarRechargeSDK */,
+				22052F81AA44A42C1177FD7B35E54369 /* FWAmarRechargeSDK-AmarResources */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				A3B5EDDAF046F7F6471A8833CEE4ACCC /* Pods-FWSampleDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41ED70380C83EBACAB9FE3D20917BC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452AF7BEE10EF07E275928FA4328681F /* JyotiPhoto.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CB77E11727ED481B54EE1F6FA9B99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754473EDB66B104D6056B42B7DFE388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E84417DA999606AE8CE08E482C8B21 /* FWAmarRechargeSDK-AmarResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685480A9F54ADC228D597E46B261D23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F39F9C21A92C91BF059EE55272A89 /* FWAmarRechargeSDK-dummy.m in Sources */,
+				543FE2562DD8A934245E356B0D7E155B /* PaymentManager.swift in Sources */,
+				703DCF899C9292FA0B2B8C0B01217787 /* RechargeFWClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E957D4020E4C4BC633BF50F7F51E5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */,
+				58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B126360DEE5CFC8A836D8A6B7D1C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56A6C6CED4A2B6BB85CB7208B8A521B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476EB21D233AE4ACEB618DA7026D679D /* Pods-FWSampleDemoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D850069CA7D0CAB820CFEB468F85981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FWAmarRechargeSDK-AmarResources";
+			target = 22052F81AA44A42C1177FD7B35E54369 /* FWAmarRechargeSDK-AmarResources */;
+			targetProxy = 14FF665E8CA2ADFA25D7248C7ABFAE11 /* PBXContainerItemProxy */;
+		};
+		F79B0592939583A583BB3DAF79AE939D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 5C0EF51C2C568A826FA16C9737D14822 /* PBXContainerItemProxy */;
+		};
+		FD8B7EC1609241BBF4AEA7866EFA65DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FWAmarRechargeSDK;
+			target = 062053ED1959F7DF24C7C60DF291704A /* FWAmarRechargeSDK */;
+			targetProxy = 1C86C96AC6AF01F34D23500E6CDA3DAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A7459537F03C1C4D63A040B787110F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD086B54C374FB35BCC47269637DD97B /* FWAmarRechargeSDK.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FWAmarRechargeSDK";
+				IBSC_MODULE = FWAmarRechargeSDK;
+				INFOPLIST_FILE = "Target Support Files/FWAmarRechargeSDK/ResourceBundle-AmarResources-FWAmarRechargeSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AmarResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4620037FF01862361574C16918F077B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3977D49AB884589A4E57EEE851A834D /* FWAmarRechargeSDK.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FWAmarRechargeSDK";
+				IBSC_MODULE = FWAmarRechargeSDK;
+				INFOPLIST_FILE = "Target Support Files/FWAmarRechargeSDK/ResourceBundle-AmarResources-FWAmarRechargeSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = AmarResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		927E42371521B5EB27FBF9CB1D2D1D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3977D49AB884589A4E57EEE851A834D /* FWAmarRechargeSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FWAmarRechargeSDK/FWAmarRechargeSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FWAmarRechargeSDK/FWAmarRechargeSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FWAmarRechargeSDK/FWAmarRechargeSDK.modulemap";
+				PRODUCT_MODULE_NAME = FWAmarRechargeSDK;
+				PRODUCT_NAME = FWAmarRechargeSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA00BC0FB44C5A1CAEB7FDC6027389AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5FAA4DACB5680B75DB881277165332 /* Pods-FWSampleDemoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWSampleDemoApp/Pods-FWSampleDemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWSampleDemoApp/Pods-FWSampleDemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3C37B487645A54D043C2C18BF002F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE569755C8FE69395D8E6C347DC7A5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E968239D4A97BA7824F4DA13F9ED575E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD086B54C374FB35BCC47269637DD97B /* FWAmarRechargeSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FWAmarRechargeSDK/FWAmarRechargeSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FWAmarRechargeSDK/FWAmarRechargeSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FWAmarRechargeSDK/FWAmarRechargeSDK.modulemap";
+				PRODUCT_MODULE_NAME = FWAmarRechargeSDK;
+				PRODUCT_NAME = FWAmarRechargeSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECBCA5B9D8D93A4C939989D1670D9DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56408369A47C45AC415D96C439C61DB1 /* Pods-FWSampleDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FWSampleDemoApp/Pods-FWSampleDemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FWSampleDemoApp/Pods-FWSampleDemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EEE77FAEF4D7483E9D3ECB777A6A55 /* Build configuration list for PBXNativeTarget "FWAmarRechargeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				927E42371521B5EB27FBF9CB1D2D1D56 /* Debug */,
+				E968239D4A97BA7824F4DA13F9ED575E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BD2681E97C00DCC2EF91B0EBA76110 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE569755C8FE69395D8E6C347DC7A5F8 /* Debug */,
+				C3C37B487645A54D043C2C18BF002F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABE5965D8B15959B2825103E6720ADA /* Build configuration list for PBXNativeTarget "Pods-FWSampleDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBCA5B9D8D93A4C939989D1670D9DAD /* Debug */,
+				BA00BC0FB44C5A1CAEB7FDC6027389AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40859CE7824E377FDF402916E6B8A75 /* Build configuration list for PBXNativeTarget "FWAmarRechargeSDK-AmarResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4620037FF01862361574C16918F077B5 /* Debug */,
+				1A7459537F03C1C4D63A040B787110F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

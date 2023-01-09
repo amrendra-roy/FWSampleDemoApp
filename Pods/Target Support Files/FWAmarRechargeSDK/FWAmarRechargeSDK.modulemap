@@ -1,0 +1,6 @@
+framework module FWAmarRechargeSDK {
+  umbrella header "FWAmarRechargeSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

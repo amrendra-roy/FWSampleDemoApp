@@ -1,0 +1,23 @@
+PODS:
+  - FWAmarRechargeSDK (0.1.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - FWAmarRechargeSDK (from `../FWAmarRechargeSDK`)
+  - MBProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  FWAmarRechargeSDK:
+    :path: "../FWAmarRechargeSDK"
+
+SPEC CHECKSUMS:
+  FWAmarRechargeSDK: 6332fb6b6688f738033f0f1234979845d6a4ab42
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: 0dfa5f93ce735b05bc7ea8b21c4cbdaadb4d5f45
+
+COCOAPODS: 1.11.3

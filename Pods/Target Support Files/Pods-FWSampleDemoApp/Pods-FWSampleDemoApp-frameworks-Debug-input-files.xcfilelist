@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-FWSampleDemoApp/Pods-FWSampleDemoApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FWAmarRechargeSDK/FWAmarRechargeSDK.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
