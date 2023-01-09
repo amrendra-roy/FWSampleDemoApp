@@ -19,7 +19,7 @@ In side of SDK
 
 Distribute POD space on Git
 Design your pod space at below architecture of folder
-Root Folder
+Root Folder    [Create this Folder at GIT repo and clone in your system and design your folder]
   -> SDK name folder  0.1.0
     -> version number
       -> sdk podsapce file
@@ -27,12 +27,35 @@ Root Folder
     -> version number 0.1.1
       -> sdk podsapce file
   
-* Root folder 
-$ git init
-$ git add .
-$ git commit -m “your fist commit”
-$ git remote add origin ‘Your remote git repertory  path to push your pod space’
-$ git push push origin master 
+
+once u paste your podspace in above version and folder then push on git repo (Root Folfer git path)
+as our pod space is available in git as public, so in xcode POD file your have to maintion your source like below
+
+platform :ios, '13.0'
+source 'https://github.com/amrendra-roy/DemoPodSpacesAtGit.git'  //amar this is repo at git version and folder structure
+
+target 'FWSampleDemoApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'FWAmarFramewokrFromGitOnly', '0.1.0' //version number which u want to install, it will show in your POD folder, code will be visible in this case as we can see code other pod like Firebase
+  //other pod
+  pod 'MBProgressHUD'
+
+end
+
+* PODspace and version is not working for me, facing issue while instaling same pod with new version like 0.1.1, 
+# below source and pod version is usefull when are creating pod space in git, but i am facing the issue for other version which is creatd on top of old to fix new changes other commit. So ignore this approach as of now. Instead use direct git path and version number
+#source 'https://github.com/amrendra-roy/DemoPodSpacesAtGit.git' #pod FWAmarFramewokrFromGitOnly availble here
+#pod 'FWAmarFramewokrFromGitOnly', '~> 0.1.1'
+
+* so use different approach like below:
+Just Create your git project and post at it, make changes and push with tag number. then use below line to install pod in your Client App
+  pod 'FWAmarFramewokrFromGitOnly', :git => 'https://github.com/amrendra-roy/FWAmarFramewokrFromGitOnly.git', :tag => '0.1.1'
+
+
+
+
 
 —————————————— ————————————————— ————————————————— 
 Practice 

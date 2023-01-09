@@ -8,6 +8,7 @@
 import UIKit
 import FWAmarRechargeSDK
 import FWAmarInvestmentSDK
+import FWAmarFramewokrFromGitOnly
 
 class ViewController: UIViewController {
 
@@ -32,6 +33,12 @@ class ViewController: UIViewController {
         }
         
         paymetnCardUses()
+        
+        
+        // Access function from a project which is not availble locally in this path 'FWAmarFramewokrFromGitOnly'
+        let testFileInFramework = TestFileInFramework()
+        testFileInFramework.testMethodFromFramework()
+        testFileInFramework.testAnotherMethodFromFramework()
     }
     
     func paymetnCardUses() {
